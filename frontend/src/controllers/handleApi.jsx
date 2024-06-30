@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseURL = "https://mern-todo-simple-be.vercel.app/"
+const baseURL = "https://mern-todo-simple-be.vercel.app"
 const getAllTodo =(setToDo) => {
     axios
     .get(baseURL)
